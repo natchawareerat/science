@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arcade Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: radial-gradient(circle at top, #0f0c29, #302b63, #24243e);
+      font-family: 'Press Start 2P', cursive;
+      color: #fff;
+    }
+
+    .profile-card {
+      background: #111;
+      border: 3px solid #ff00ff;
+      padding: 30px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 0 20px #ff00ff, 0 0 40px #00ffff;
+      max-width: 400px;
+      animation: glow 2s infinite alternate;
+    }
+
+    .profile-card img {
+      border-radius: 50%;
+      border: 4px solid #00ffff;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 20px;
+      box-shadow: 0 0 15px #00ffff, 0 0 25px #ff00ff;
+    }
+
+    .profile-card h1 {
+      font-size: 18px;
+      color: #00ffea;
+      text-shadow: 0 0 5px #ff00ff, 0 0 10px #00ffff;
+      margin: 15px 0;
+    }
+
+    .profile-card p {
+      font-size: 12px;
+      margin: 10px 0;
+      color: #ffeb3b;
+      text-shadow: 0 0 5px #ff00ff, 0 0 10px #00ffff;
+    }
+
+    .profile-card p span {
+      color: #00ffff;
+    }
+
+    @keyframes glow {
+      from {
+        box-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
+      }
+      to {
+        box-shadow: 0 0 30px #ff00ff, 0 0 60px #00ffff;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <img src="natcha.png" alt="Natcha">
+    <h1>Natcha Wareerat</h1>
+    <p><span>E-mail:</span> nuttybg042@gmail.com</p>
+    <p><span>Department:</span> Science</p>
+    <p><span>Faculty:</span> Science</p>
+  </div>
+</body>
+</html>
